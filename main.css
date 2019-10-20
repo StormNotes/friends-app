@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #c9cee9;
+}
+.icons{
+    margin: 100px;
+}
+.container {
+    background: #ffffff0c;
+    width: 80%;
+    height: 60vh;
+    margin: 50px auto;
+}
+.invite{
+    width: 100%;
+    color:white;
+    text-align: center;
+    background: rgba(128, 128, 128, 0.137);
+}
+.grin {
+    margin-top: 120px;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    
+}
+.grin {
+    animation-name: bounce-7;
+    animation-timing-function: cubic-bezier(0.280, 0.840, 0.420, 1);
+}
+@keyframes bounce-7 {
+    0%   { transform: scale(1,1)      translateY(0); }
+    10%  { transform: scale(1.1,.9)   translateY(0); }
+    30%  { transform: scale(.9,1.1)   translateY(-100px); }
+    50%  { transform: scale(1.05,.95) translateY(0); }
+    57%  { transform: scale(1,1)      translateY(-7px); }
+    64%  { transform: scale(1,1)      translateY(0); }
+    100% { transform: scale(1,1)      translateY(0); }
+}
